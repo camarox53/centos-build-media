@@ -9,7 +9,4 @@ RUN apt-get install -y \
 	isolinux \
 	make 
 
-#CMD ["mknod /dev/loop0 b 7 0"]
-
-#WORKDIR /ipxe/src
 CMD ["/bin/bash"]
