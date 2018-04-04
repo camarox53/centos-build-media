@@ -21,3 +21,5 @@ $ ./build_container.sh
 $ ./build_media.sh -k base.cfg -i mini.iso
 ```
 Note: Your new .iso will be created in your current working directory. 
+
+###### This is an automated build on the dockerhub. Pull camarox53/centos-build-media
