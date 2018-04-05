@@ -1,2 +1,2 @@
 #! /bin/bash
-docker build -t cumorris/ubuntu1604 .
+docker build -t camarox53/centos-build-media .

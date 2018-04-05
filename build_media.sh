@@ -28,4 +28,4 @@ if [ "${1}" == "" ]; then
     PARAMS="-i mini.iso -k base.cfg"
 fi
 
-docker run --rm -v ${PWD}:/build -w "/build" --privileged=true -t cumorris/ubuntu1604 bash -c "./centos-build-media.sh ${PARAMS}"
+docker run --rm -v ${PWD}:/build -w "/build" --privileged=true -t camarox53/centos-build-media bash -c "./centos-build-media.sh ${PARAMS}"
