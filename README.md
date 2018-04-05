@@ -1,13 +1,21 @@
 # centos-build-media 
 
-### Pre-Requirements
+### Prerequisites - Docker
 * Have git installed 
 * Have Docker installed  
+* Clone this repo
 * Download a CentOS 7 minimal iso
 
-##### Packages: 
+### Prerequisites - Local
+* Tested on Ubuntu 16.04
 
-### Building Media
+##### Packages:
+* git
+* xorriso
+* isolinux
+* make
+
+### Building Media - Docker
 * Git clone this repository 
 ```
 $ git clone git@github.com:camarox53/centos-build-media.git
